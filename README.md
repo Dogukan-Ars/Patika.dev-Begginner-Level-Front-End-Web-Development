@@ -12,7 +12,7 @@ Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
 Linux için:
 
 ```
-cd kodluyoruzilkrepo <br>
+cd kodluyoruzilkrepo
 code .
 ```
 
@@ -23,5 +23,5 @@ Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi 
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-Image:
+Image: <br>
 ![Lorem Picsum](https://picsum.photos/200/300)
