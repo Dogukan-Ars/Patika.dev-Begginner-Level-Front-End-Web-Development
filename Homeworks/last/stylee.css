@@ -1,0 +1,106 @@
+/* Reset Spaces */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Page Section - Start */
+#page{
+    width: 2000px;
+    min-height: 1000px;
+    padding: 10px;
+    background-color: rgb(205, 116, 106);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Page Section - Start */
+
+/* Header Section - Start */
+#banner{
+    width: 1400px;
+}
+
+/* Header Section - End */
+
+/* Nav Section - Start */
+#mainmenu{
+    width: 730px;
+    height: 15px;
+    text-align: center;
+    position: relative;
+    left: 450px;
+}
+#mainmenu ul{
+    list-style-type: none;
+}
+#mainmenu ul li{
+    width: 240px;
+    float: right;
+    padding: px;
+}
+/* Nav Section - End */
+
+/* Article Section - Start */
+#index{
+    width: 400px;
+    margin-top: 20px;
+    position: relative;
+    left: 397px;    
+}
+#index h2{
+    width: 500px;
+    border-radius: 20px; 
+    color: white; 
+    background-color: rgb(204, 1, 1);
+    text-align: center; 
+    position: relative;
+    right: 23px;
+}
+#index ul{
+    list-style-type: disc;
+}
+#index ul li{
+    width: 360px;
+    height: 20px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    margin-left: 20px;
+}
+/* Article Section - End */
+
+/* Aside Section - Start */
+#sidemenu{
+    width: 370px;
+    margin-top: 30px;
+    position: relative;
+    left: 378px;
+}
+#sidemenu h2{
+    width: 370px;
+    border-radius: 20px; 
+    color: white;
+    background-color: rgb(204, 1, 1);
+    text-align: center;
+}
+#sidemenu ol li{
+    width: 835px;
+    min-height: 20px;
+    float: right;
+    position: relative;
+    left: 525px;
+    top: 10px;
+}
+/* Aside Section - End */
+
+/* Footer Section - Start */
+#bottom{
+    margin-top: 430px;
+    margin-left: 800px;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    text-align: center;
+}
+/* Footer Section - End */
