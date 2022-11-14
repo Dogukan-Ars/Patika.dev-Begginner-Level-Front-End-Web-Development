@@ -1,0 +1,34 @@
+.panel{
+    text-align: center;
+    font-size: 13px;
+}
+
+.container {
+    text-align: center;
+}
+
+.table {
+    margin:auto;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    width: 90%;
+}
+
+.search-area {
+    background-color: rgb(238,238,238);
+}
+
+.search {
+    text-align: center;
+    
+}
+
+.buttons {
+    text-align: center;
+}
+
+.info-area {
+    text-align: center;
+}
