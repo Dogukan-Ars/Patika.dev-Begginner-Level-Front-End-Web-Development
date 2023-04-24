@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        .text-primary{
+            color: blue;
+        }
+        .text-danger{
+            color: red;
+        }
+    </style> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+
+    <div id="alert"></div>
+
+
+
+    <h1 id="greeting">Kodluyoruz - Front-End 101</h1>
+
+    
+    
+    <!-- 10-DOM icerisinden oge secimi ve duzenleme islemleri 
+
+    <h2 id="title">Merhaba Dunya</h2>
+    <ul id="list">
+        <li>
+            <a href="#" id="kodluyoruzLink">link bilgisi</a>
+        </li>
+    </ul>
+-->
+
+<!-- 12-liste-içerisindeki-ogeye-ulaşmak-veya-yeni-oge-eklemek
+    <ul id="list">
+        <li>Lorem.</li>
+        <li>Consectetur!</li>
+        <li>Praesentium!</li>
+    </ul>
+-->
+    <h2 id="info"></h2>
+
+
+    <!-- 23-functions-bolum-sonu-egzersizi -->
+
+    <!-- <h3 id="counter"></h3>
+    <button id="increase">Arttir</button>
+    <button id="decrease">Azalt</button> -->
+
+<!--   27-form-submit-yontemi
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <form id="userForm">
+                <div class="mb-3">
+                    <label class="form-label" for="username">Kullanici Adi</label>
+                    <input class="form-control" type="text" name="username" id="username">
+                </div>                    
+                <div class="mb-3">    
+                    <label class="form-label" for="score">Not Bilgisi</label>
+                    <input class="form-control" type="number" name="score" id="score">
+                </div>
+                <div class="mb-3">
+                    <button type="reset" class="btn btn-danger">Sifirla</button>
+                    <button type="submit" class="btn btn-success">Gonder</button>
+                </div>
+                </form>
+            </div>
+            <div class="col-sm-8 offset-sm-2 mt-4">
+                <ul class="list-group" id="userList">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                        cras justo odio
+                        <span class="badge bg-primary rounded-pill">14</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- 33. For Loop -->
+
+    <ul class="list-group" id="userList">
+        
+    </ul>
+<!--    
+    Not:
+    Her çalışma için ayrı ayrı js dosyaları oluşturuldu.
+    Dosya üzerinde çalışmadan önce lüften açıklama satırında olup olmadığını kontrol edin
+-->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- <script src="js/01-hello-world.js"></script>
+    <script src="js/02-degisken-tanimlama.js"></script>
+    <script src="js/04-number-veri-turu.js"></script>
+    <script src="js/05-boolean-veri-turu.js"></script>
+    <script src="js/06-veri-turu-ve-veri-turu-donusumleri.js"></script>
+    <script src="js/07-template-literals-kullanimi.js"></script>
+    <script src="js/08-string-veri-turu-isimleri.js"></script>
+    <script src="js/09-document-object-model.js"></script>
+    <script src="js/10-dom-icerisinden-oge-secimi.js"></script>
+    <script src="js/11-prompt-ile-kullanicidan-bilgi-alma.js"></script>
+    <script src="js/12-liste-içerisindeki-ogeye-ulaşmak-veya-yeni-oge-eklemek.js"></script>
+    <script src="js/13-css-class-eklemek-veya-cikartmak.js"></script>
+    <script src="js/14-karsilastirma-operatorleri-ve-mantiksal-operatorleri.js"></script>
+    <script src="js/15-kosullarla-calismak.js"></script>
+    <script src="js/16-coklu-kosullarla-calismak.js"></script>
+    <script src="js/17-ternary-operator-ile-short-if-kullanimi.js"></script>
+    <script src="js/18-kosullarla-calismak-bolum-sonu-egzersizi.js"></script>
+    <script src="js/19-fonksiyonlar-neden-kullanilir.js"></script>
+    <script src="js/20-fonksiyonlara-parametreler-atamak-ve-fonksiyondan-geridonus-alma.js"></script>
+    <script src="js/21-arrow-function-kullanimi.js"></script>
+    <script src="js/22-dom-etkinlikleriyle-calismak.js"></script>
+    <script src="js/23-functions-bolum-sonu-egzersizi.js"></script>
+    <script src="js/24-localStorage-icerisine.js"></script>
+    <script src="js/25-localStorage-icerisine-isimler-yazma.js"></script>
+    <script src="js/26-localStorage-bolum-sonu-egzersizi.js"></script>
+    <script src="js/27-form-submit-yontemi.js"></script>
+    <script src="js/28-input-icindeki-degeri(value)-almak.js"></script>
+    <script src="js/29-formlarla-calismak-bolum-sonu-egzersizi.js"></script>
+    <script src="js/30-dizi-olusturmak-ve-dizi-icindeki-ilk-son-elemana-ulasmak.js"></script>
+    <script src="js/31-array-yapisina-oge-eklemek-ve-cikartmak.js"></script>
+    <script src="js/32-cok-kullanilan-array-dizi-metotlari.js"></script>
+    <script src="js/33-for-loop.js"></script>
+    <script src="js/34-break-continue.js"></script>
+    <script src="js/35-while-loop.js"></script>
+    <script src="js/36-array-forEach-method.js"></script>
+    <script src="js/37-array-filter-kullanimi.js"></script> -->
+    <script src="js/38-array-map-kullanimi.js"></script>
+
+
+</body>
+</html>
