@@ -17,17 +17,9 @@ const addHTML = (todo) => {
     const todoDelete = document.createElement("span")
     todoDelete.classList.add("delete")
     todoDelete.textContent = "\u00D7"
-    
-    // const todoEdit = document.createElement("span")
-    // todoEdit.classList.add("edit")
-    // todoEdit.textContent = "..."
-    // todoEdit.addEventListener("click", () => {
-    //     todo_edit(li,todo)
-    // })
 
     // todo_container div parent-child relations    
     li.appendChild(todoDelete)
-    // li.appendChild(todoEdit)
     ul.appendChild(li)
     todo_container.appendChild(ul)
 }
@@ -85,34 +77,6 @@ const todo_delete = (e) => {
     
     todo.remove()
 }
-
-// const todo_edit = (li, todo) => {
-//     const todoEdit = document.createElement("input")
-//     todoEdit.classList.add("todo_input")
-//     todoEdit.value = todo.text
-//     li.replaceWith(todoEdit)
-
-//     todoEdit.addEventListener("keydown", (e) => {
-//         if(e.key === "Enter") {
-//             todo.text = todoEdit.value
-//             let todos = JSON.parse(localStorage.getItem("todos"))
-//             const i = todos.findIndex(td => td.text === text)
-//             todos[i] = todo
-//             localStorage.setItem("todos", JSON.stringify(todos))
-//             const newLi = document.createElement("li")
-//             newLi.textContent = todo.text
-//             newLi.classList.add("todo_list")
-//             newLi.addEventListener("click", (item) => {
-//                 newLi.classList.toggle("checked")
-//             })
-//             newLi.appendChild(todoDelete)
-//             newLi.appendChild(todoEdit)
-//             todoEdit.replaceWith(newLi)
-//         } else if (e.key === "Escape") {
-//             todoEdit.replaceWith(li)
-//         }
-//     })
-// }
 
 form.addEventListener("submit", addTodo)
 todoDeletes.forEach(d => d.addEventListener("click", todo_delete))
