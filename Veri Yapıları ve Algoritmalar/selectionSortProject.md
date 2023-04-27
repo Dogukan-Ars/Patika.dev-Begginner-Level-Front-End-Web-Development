@@ -33,7 +33,7 @@
 
 ***
 
-# Problem 2:
+## Problem 2:
 ### [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımı Çözümü:
 
 1. Dizinin en küçük elemanı bulunarak ilk sıradaki 7 sayısı ile yer değiştirir. Listedeki en küçük eleman 2 sayısı olduğu için yeni liste **[2,3,5,8,7,9,4,15,6]** şeklinde olacaktır.
